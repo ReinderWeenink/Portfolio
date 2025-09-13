@@ -1,1 +1,4 @@
+In the first run the 5th combination scored best with value 0.3711 time 13,03 128,128 units.
+
+I thinks if we add epochs this will change only the score. But the 128m,128 will still be fastest and best.
 
