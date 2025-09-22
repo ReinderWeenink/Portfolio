@@ -18,7 +18,6 @@ Conclusions from the testing:
 
     Normalizing layer and dropout did not seem to have much effect. At some point I need to investigate further.
 
-    test
 
     The unchanged models performance is about 0.0983
 
