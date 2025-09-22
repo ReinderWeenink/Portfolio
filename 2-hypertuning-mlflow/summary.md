@@ -6,6 +6,7 @@ Exercises MLflow
 Conclusions from the testing:
 
     Granularity of the network and epochs give the most performance.
+    
 
     It took some time to fiddle around with kernelsizes to understand what really was happening.
     I think each layer is like a stacked if funtion. That makes it more logical in the case of images to start of with an equal number of inputs to the images. Then slowly trading granularity of the image in for granularity of the filters. The filters combinations are of size 28*28*512*265 en soforth. This gives a lot of different combination possibilitys.
@@ -17,7 +18,7 @@ Conclusions from the testing:
 
     Normalizing layer and dropout did not seem to have much effect. At some point I need to investigate further.
 
-
+    test
 
     The unchanged models performance is about 0.0983
 
