@@ -16,6 +16,7 @@ Conclusions from the testing:
     Hourglass shaped seems logical. And gives the best performance.
 
     Normalizing layer and dropout did not seem to have much effect. At some point I need to investigate further.
+    test
 
 
 
