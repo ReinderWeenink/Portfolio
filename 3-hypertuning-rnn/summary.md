@@ -1,17 +1,21 @@
 Summary of the tests.
 
 Again the network improves the most from adding depth in layers or width to improve accuracy.
-Adding to much depth to the model however frequently resulted in early stopping of the training. I had not seen this in the post assignments and some of it could be resolved by adding more depth.
+Adding too much depth to the model however frequently resulted in early stopping of the training. I had not seen this in the previous assignments. Many many tests were done but Every time the performance was poor until the learning rate was changed.
 
 model:
 It seems logical to me that the length of the hidden_size is equal to the lenght of the hidden_size of the linear model.
 I did not understand the transformation of the tensor.
 From the notebooks I understood that the tensor was Batch*Features*timesteps. Maybe the model does this by creating the hidden_state. It is however then unclear how big the hiddenstate should be. Is it F*F*F? or F*T? It is not the first the model cant handle this. So how does it work?
 
-ALso the padding system is not clear to me. I'm expecting to only havve to add 0 on the end of the second dimension of the tensor. Not sure how this works in the notebook. Also when working in batches how could you do this just in time and end up with equal lengths?
+ALso the padding system is not clear to me. I'm expecting to only have to add 0's on the end of the second dimension of the tensor. Not sure how this works in the notebook. Also when working in batches how could you do this just in time and end up with equal lengths?
 
 epochs:
-Again the epochs have a great influence on the performance of the model. What surprises me though that the steps are always very tiny. Also on the start of the training. I'm expecting the gradients to be steep here so also seeing big jump in performance increase.
+Again the epochs have the most impact on the performance of the model. What surprises me though that the performance steps are always very tiny. Also on the start of the training. I'm expecting the gradients to be steep here so also seeing big jump in performance increase.
+
+After discussion:
+It turned out that the model some used a very small learning rate and therfore was not learning properly. After Raoul had taken a look he found out that this was the problem. After changing the initial learing rate to a larger one the models started performing as expected.
+This is an error I wont forget easily.
 
 
 TESTS:
