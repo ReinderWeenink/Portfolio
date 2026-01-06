@@ -1,0 +1,25 @@
+[project]
+name = "batproject"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "hyperopt>=0.2.7",
+    "markupsafe<3.0",
+    "matplotlib>=3.10.7",
+    "numpy>=2.3.3",
+    "pydantic>=2.12.3",
+    "ray[tune]>=2.51.1",
+    "scikit-learn>=1.7.2",
+    "torch==2.9.0",
+    "torchaudio>=2.9.0",
+    "torchcodec==0.8",
+    "torchvision>=0.24.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.1.0",
+    "jupyter>=1.1.1",
+]

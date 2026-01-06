@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../batSounds/classifiedBats"
+		},
+		{
+			"path": "../../../batSounds/RayR"
+		}
+	],
+	"settings": {}
+}
