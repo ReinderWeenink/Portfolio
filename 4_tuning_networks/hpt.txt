@@ -1,0 +1,33 @@
+[I 2025-10-05 11:20:36,641] A new study created in memory with name: no-name-a5b8dbdd-6d21-41b7-a59a-403d983e1ff2
+Starting hyperparameter optimization...
+[I 2025-10-05 11:23:52,215] Trial 0 finished with value: 0.7124183006535948 and parameters: {'lr': 0.0001837168163695611, 'batch_size': 16, 'conv1_out': 32, 'conv2_out': 128, 'conv3_out': 256, 'conv4_out': 384, 'fc_hidden1': 256, 'fc_hidden2': 64, 'fc_hidden3': 32, 'dropout_rate': 0.201291078781419, 'optimizer': 'RMSprop'}. Best is trial 0 with value: 0.7124183006535948.
+[I 2025-10-05 11:27:38,048] Trial 1 finished with value: 0.5555555555555556 and parameters: {'lr': 0.00010426433648936491, 'batch_size': 32, 'conv1_out': 64, 'conv2_out': 128, 'conv3_out': 192, 'conv4_out': 384, 'fc_hidden1': 256, 'fc_hidden2': 96, 'fc_hidden3': 50, 'dropout_rate': 0.6197927973536498, 'optimizer': 'Adam'}. Best is trial 0 with value: 0.7124183006535948.
+[I 2025-10-05 11:31:40,759] Trial 2 finished with value: 0.45751633986928103 and parameters: {'lr': 1.4887051551981955e-05, 'batch_size': 32, 'conv1_out': 64, 'conv2_out': 128, 'conv3_out': 192, 'conv4_out': 512, 'fc_hidden1': 256, 'fc_hidden2': 96, 'fc_hidden3': 32, 'dropout_rate': 0.2542299775054795, 'optimizer': 'Adam'}. Best is trial 0 with value: 0.7124183006535948.
+[I 2025-10-05 11:35:17,233] Trial 3 finished with value: 0.45751633986928103 and parameters: {'lr': 0.0002109576808537769, 'batch_size': 32, 'conv1_out': 32, 'conv2_out': 128, 'conv3_out': 192, 'conv4_out': 512, 'fc_hidden1': 256, 'fc_hidden2': 96, 'fc_hidden3': 50, 'dropout_rate': 0.29388461698101775, 'optimizer': 'SGD'}. Best is trial 0 with value: 0.7124183006535948.
+[I 2025-10-05 11:38:44,909] Trial 4 finished with value: 0.6143790849673203 and parameters: {'lr': 0.00018818046845502938, 'batch_size': 16, 'conv1_out': 64, 'conv2_out': 96, 'conv3_out': 256, 'conv4_out': 384, 'fc_hidden1': 128, 'fc_hidden2': 64, 'fc_hidden3': 32, 'dropout_rate': 0.42131887402657564, 'optimizer': 'RMSprop'}. Best is trial 0 with value: 0.7124183006535948.
+[I 2025-10-05 11:40:09,913] Trial 5 pruned. 
+[I 2025-10-05 11:43:39,594] Trial 6 finished with value: 0.6339869281045751 and parameters: {'lr': 0.00015694928750689316, 'batch_size': 32, 'conv1_out': 64, 'conv2_out': 96, 'conv3_out': 192, 'conv4_out': 384, 'fc_hidden1': 128, 'fc_hidden2': 64, 'fc_hidden3': 32, 'dropout_rate': 0.25130841075301824, 'optimizer': 'RMSprop'}. Best is trial 0 with value: 0.7124183006535948.
+[I 2025-10-05 11:45:08,392] Trial 7 pruned. 
+[I 2025-10-05 11:46:19,509] Trial 8 pruned. 
+[I 2025-10-05 11:47:42,624] Trial 9 pruned. 
+[I 2025-10-05 11:50:54,558] Trial 10 finished with value: 0.5163398692810458 and parameters: {'lr': 0.001186748487109715, 'batch_size': 16, 'conv1_out': 32, 'conv2_out': 96, 'conv3_out': 256, 'conv4_out': 512, 'fc_hidden1': 256, 'fc_hidden2': 64, 'fc_hidden3': 32, 'dropout_rate': 0.5024906311792532, 'optimizer': 'RMSprop'}. Best is trial 0 with value: 0.7124183006535948.
+[I 2025-10-05 11:54:19,475] Trial 11 finished with value: 0.6535947712418301 and parameters: {'lr': 0.000824784571633656, 'batch_size': 16, 'conv1_out': 32, 'conv2_out': 96, 'conv3_out': 256, 'conv4_out': 384, 'fc_hidden1': 256, 'fc_hidden2': 64, 'fc_hidden3': 32, 'dropout_rate': 0.3214492538110706, 'optimizer': 'RMSprop'}. Best is trial 0 with value: 0.7124183006535948.
+[I 2025-10-05 11:58:15,374] Trial 12 finished with value: 0.6862745098039216 and parameters: {'lr': 0.0012368387485844196, 'batch_size': 16, 'conv1_out': 32, 'conv2_out': 96, 'conv3_out': 256, 'conv4_out': 384, 'fc_hidden1': 256, 'fc_hidden2': 64, 'fc_hidden3': 32, 'dropout_rate': 0.3239036347809146, 'optimizer': 'RMSprop'}. Best is trial 0 with value: 0.7124183006535948.
+[I 2025-10-05 12:01:23,711] Trial 13 pruned. 
+[I 2025-10-05 12:02:40,047] Trial 14 pruned. 
+[I 2025-10-05 12:05:39,844] Trial 15 finished with value: 0.6535947712418301 and parameters: {'lr': 3.297263035435839e-05, 'batch_size': 16, 'conv1_out': 32, 'conv2_out': 96, 'conv3_out': 256, 'conv4_out': 384, 'fc_hidden1': 256, 'fc_hidden2': 64, 'fc_hidden3': 32, 'dropout_rate': 0.5556171747728353, 'optimizer': 'RMSprop'}. Best is trial 0 with value: 0.7124183006535948.
+[I 2025-10-05 12:09:02,976] Trial 16 finished with value: 0.7254901960784313 and parameters: {'lr': 0.000588084895542869, 'batch_size': 16, 'conv1_out': 32, 'conv2_out': 96, 'conv3_out': 256, 'conv4_out': 384, 'fc_hidden1': 256, 'fc_hidden2': 64, 'fc_hidden3': 32, 'dropout_rate': 0.3555451598746594, 'optimizer': 'Adam'}. Best is trial 16 with value: 0.7254901960784313.
+[I 2025-10-05 12:12:41,563] Trial 17 finished with value: 0.6601307189542484 and parameters: {'lr': 0.0004589406776992556, 'batch_size': 16, 'conv1_out': 32, 'conv2_out': 128, 'conv3_out': 256, 'conv4_out': 384, 'fc_hidden1': 256, 'fc_hidden2': 64, 'fc_hidden3': 32, 'dropout_rate': 0.4031481446604962, 'optimizer': 'Adam'}. Best is trial 16 with value: 0.7254901960784313.
+[I 2025-10-05 12:16:34,528] Trial 18 finished with value: 0.7058823529411765 and parameters: {'lr': 0.00042520763298145147, 'batch_size': 16, 'conv1_out': 32, 'conv2_out': 128, 'conv3_out': 256, 'conv4_out': 512, 'fc_hidden1': 256, 'fc_hidden2': 64, 'fc_hidden3': 50, 'dropout_rate': 0.5405419625511231, 'optimizer': 'Adam'}. Best is trial 16 with value: 0.7254901960784313.
+[I 2025-10-05 12:17:55,952] Trial 19 pruned. 
+[I 2025-10-05 12:19:23,857] Trial 20 pruned. 
+[I 2025-10-05 12:23:16,842] Trial 21 finished with value: 0.7189542483660131 and parameters: {'lr': 0.00047682578437123425, 'batch_size': 16, 'conv1_out': 32, 'conv2_out': 128, 'conv3_out': 256, 'conv4_out': 512, 'fc_hidden1': 256, 'fc_hidden2': 64, 'fc_hidden3': 50, 'dropout_rate': 0.5631067438830735, 'optimizer': 'Adam'}. Best is trial 16 with value: 0.7254901960784313.
+[I 2025-10-05 12:27:07,563] Trial 22 finished with value: 0.7189542483660131 and parameters: {'lr': 0.0004701700001137855, 'batch_size': 16, 'conv1_out': 32, 'conv2_out': 128, 'conv3_out': 256, 'conv4_out': 512, 'fc_hidden1': 256, 'fc_hidden2': 64, 'fc_hidden3': 50, 'dropout_rate': 0.5788562779934361, 'optimizer': 'Adam'}. Best is trial 16 with value: 0.7254901960784313.
+[I 2025-10-05 12:29:51,564] Trial 23 pruned. 
+[I 2025-10-05 12:31:23,771] Trial 24 pruned. 
+...
+    res = _winapi.WaitForMultipleObjects(L, False, timeout)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+[W 2025-10-05 12:36:58,048] Trial 27 failed with value None.
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...

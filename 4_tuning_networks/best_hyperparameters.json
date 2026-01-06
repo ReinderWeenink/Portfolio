@@ -1,0 +1,9 @@
+{
+    "lr": 0.0016090829719801736,
+    "batch_size": 4,
+    "fc_hidden1": 512,
+    "fc_hidden2": 256,
+    "fc_hidden3": 128,
+    "dropout_rate": 0.19819771880335438,
+    "optimizer": "Adam"
+}
