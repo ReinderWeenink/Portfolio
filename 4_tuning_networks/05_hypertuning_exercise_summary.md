@@ -17,7 +17,7 @@ The results where difficult to analyze because only the best model was shown and
 By using the dataframe it was possible to recognize the similarities between the models and identifies where the model seems to score the best.
 
 Changes in the learning rate, skiplayers and dropout rate all changed the performance only minor bits.
-In the end adding the transferlearning gave the biggest jump in performance. This gave nearly 20% performance gain.
+In the end adding the transferlearning gave the biggest jump in performance. This gave nearly 20% performance gain. 0.967320
 
 It was probably better to start of by adding the transferlearning and focus more more on the linear layer training. This would have narrowed down the vector space to do the hypertuning on.
 
