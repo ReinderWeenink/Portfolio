@@ -1,6 +1,6 @@
 Hyper tuning exercise:
 
-I've set up a model in collaboration with claude. To detect bees and ants from iamges.
+I've set up a model in collaboration with claude. To detect bees and ants from iamges. hypertune_exercise_2.ipynb
 For the data setup I chose not to use batch normalization. Claude advised not to use it because the dataset is so small.
 
 I've set up the model with 3 convolutional blocks. en three linear layers. For hypertuning ive setup Fortuna based system, advised by Claude. Every model trained for 10 epochs.
