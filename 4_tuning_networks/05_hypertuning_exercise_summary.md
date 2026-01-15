@@ -1,11 +1,11 @@
 Hyper tuning exercise:
 
-I've set up a model in collaboration with claude.
+I've set up a model in collaboration with claude. To detect bees and ants from iamges.
 For the data setup I chose not to use batch normalization. Claude advised not to use it because the dataset is so small.
 
 I've set up the model with 3 convolutional blocks. en three linear layers. For hypertuning ive setup Fortuna based system, advised by Claude. Every model trained for 10 epochs.
 
-Below a visual for the first of the first hypertune session and some scores.
+Below a visual for the first of the first hypertune session and some scores. These result were achieved without transfer learning.
 
 [I 2025-10-05 13:59:18,753] Trial 24 finished with value: 0.7450980392156863 and parameters: {'lr': 0.0005187264323843489, 'batch_size': 8, 'conv1_out': 32, 'conv2_out': 128, 'conv3_out': 192, 'conv4_out': 384, 'fc_hidden1': 256, 'fc_hidden2': 128, 'fc_hidden3': 32, 'dropout_rate': 0.10117247262913878, 'optimizer': 'Adam'}. Best is trial 14 with value: 0.7450980392156863.
 [I 2025-10-05 13:54:25,361] Trial 22 finished with value: 0.738562091503268 and parameters: {'lr': 0.0002045751841323453, 'batch_size': 8, 'conv1_out': 32, 'conv2_out': 128, 'conv3_out': 192, 'conv4_out': 384, 'fc_hidden1': 256, 'fc_hidden2': 128, 'fc_hidden3': 32, 'dropout_rate': 0.11366390350512119, 'optimizer': 'Adam'}. Best is trial 14 with value: 0.7450980392156863.
