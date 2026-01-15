@@ -1,15 +1,14 @@
 # Summary week 2
-A convolution layer is a layer which applies filter over the image. These filters are used to find features in the images. Like Depth, edges, colours, objects, segmentations etc.
+MLFlow keeps being a problem to run. Therfore I dont have any visualisation from it.
 
-Exercises MLflow
+It took some time to fiddle around with kernelsizes to understand what really was happening. This was mainly to grasp the way the how the network works from a height widht map and channels to one number feature maps.
+I think each layer is like a stacked if function. That makes it more logical in the case of images to start of with an equal number of inputs to the        images. Then slowly trading granularity of the image in for granularity of the filters. The filters combinations are of size 28*28*512*265 en soforth.      This gives a lot of different combination possibilitys.
 
-Conclusions from the testing:
+I did not have clearly better results by adding the normalization or dropout layers. This was because the model was set in two different config. One config overwriting the other. That made some of the testing not valid.
 
-    Granularity of the network and epochs give the most performance.
-    
+The test which were valid however showed no real big differences by adding dropout and normalization. Which i exptected from it. So it is hard to say what the interaction actually is. I know from the lessons of course that the normalization should prevent vanishing gradient and dropout with overfitting, but it was hard to judge if this was really happening.
 
-    It took some time to fiddle around with kernelsizes to understand what really was happening.
-    I think each layer is like a stacked if funtion. That makes it more logical in the case of images to start of with an equal number of inputs to the images. Then slowly trading granularity of the image in for granularity of the filters. The filters combinations are of size 28*28*512*265 en soforth. This gives a lot of different combination possibilitys.
+
 
     Performance differences were not that large. Making sure the inputs were mathing gives the largest jump in performance.
     Kernelsizes steer granularity en padding is more or less like a cropping function.
@@ -17,8 +16,9 @@ Conclusions from the testing:
     Hourglass shaped seems logical. And gives the best performance.
 
     Normalizing layer and dropout did not seem to have much effect. At some point I need to investigate further.
+    
+    
     test
-
 
     The unchanged models performance is about 0.0983
 
@@ -101,10 +101,6 @@ Conclusions from the testing:
     Changed the units to 256 128, 64
     I expect the performance to be a little bit better. Maybe the learning also smoother
     performance 0.4545
-
-    Changed something
-
-    performance 0.5841
 
 
 
